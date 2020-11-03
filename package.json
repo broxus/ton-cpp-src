@@ -1,0 +1,16 @@
+{
+  "name": "ton-cpp-src",
+  "version": "1.0.1",
+  "description": "TON C++ node source",
+  "main": "index.js",
+  "scripts": {
+    "build": "git clone https://github.com/broxus/ton.git && cd ton && git submodule init && git submodule update third-party/crc32c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rexagon/ton-cpp-src.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/Rexagon/ton-cpp-src#readme"
+}
